@@ -8,7 +8,7 @@
       <div class="relative flex items-center justify-between -mx-4">
         <div class="max-w-full px-4 w-60">
           <a href="index.html" class="block w-full py-5 navbar-logo">
-            <img src="@/assets/bun.png" alt="logo" class="w-full header-logo" />
+            <img src="/bun2.png" alt="logo" class="w-full header-logo" />
           </a>
         </div>
         <div class="flex items-center justify-between w-full px-4">
@@ -31,11 +31,11 @@
               id="navbarCollapse"
               class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg  lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none  xl:px-6"
             >
-              <ul class="block lg:flex  2xl:ml-20 text-base font-medium text-navy  lg:text-navy lg:group-hover:text-[#B31312]">
+              <ul class="block lg:flex  2xl:ml-20 text-base font-medium text-white  lg:text-white lg:group-hover:text-[#111928]">
                 <li class="relative group">
                   <a
                     href="#home"
-                    class="flex py-2 mx-8  ud-menu-scroll  group-hover:text-[#B31312]  lg:mr-0 lg:inline-flex lg:px-0 lg:py-6   lg:group-hover:opacity-70"
+                    class="flex py-2 mx-8  ud-menu-scroll  group-hover:text-[#111928]  lg:mr-0 lg:inline-flex lg:px-0 lg:py-6   lg:group-hover:opacity-70"
                   >
                     Home
                   </a>
@@ -43,7 +43,7 @@
                 <li class="relative group">
                   <a
                     href="#about"
-                    class="flex py-2 mx-8  ud-menu-scroll   group-hover:text-[#B31312] lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6   lg:group-hover:opacity-70 xl:ml-10"
+                    class="flex py-2 mx-8  ud-menu-scroll   group-hover:text-[#111928] lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6   lg:group-hover:opacity-70 xl:ml-10"
                   >
                     About
                   </a>
@@ -51,7 +51,7 @@
                 <li class="relative group">
                   <a
                     href="#pricing"
-                    class="flex py-2 mx-8  ud-menu-scroll  group-hover:text-[#B31312]  lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6   lg:group-hover:opacity-70 xl:ml-10"
+                    class="flex py-2 mx-8  ud-menu-scroll  group-hover:text-[#111928]  lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6   lg:group-hover:opacity-70 xl:ml-10"
                   >
                     Pricing
                   </a>
@@ -59,7 +59,7 @@
                 <li class="relative group">
                   <a
                     href="#team"
-                    class="flex py-2 mx-8  ud-menu-scroll   group-hover:text-[#B31312] lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6   lg:group-hover:opacity-70 xl:ml-10"
+                    class="flex py-2 mx-8  ud-menu-scroll   group-hover:text-[#111928] lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6   lg:group-hover:opacity-70 xl:ml-10"
                   >
                     Team
                   </a>
@@ -67,7 +67,7 @@
                 <li class="relative group">
                   <a
                     href="#contact"
-                    class="flex py-2 mx-8  ud-menu-scroll   group-hover:text-[#B31312] lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6   lg:group-hover:opacity-70 xl:ml-10"
+                    class="flex py-2 mx-8  ud-menu-scroll   group-hover:text-[#111928] lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6   lg:group-hover:opacity-70 xl:ml-10"
                   >
                     Contact
                   </a>
@@ -75,7 +75,7 @@
                 <li class="relative group">
                   <a
                     href="blog-grids.html"
-                    class="flex py-2 mx-8 text-base font-medium ud-menu-scroll  group-hover:text-[#B31312]  lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6   lg:group-hover:opacity-70 xl:ml-10"
+                    class="flex py-2 mx-8 text-base font-medium ud-menu-scroll  group-hover:text-[#111928]  lg:ml-7 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6   lg:group-hover:opacity-70 xl:ml-10"
                   >
                     Blog
                   </a>

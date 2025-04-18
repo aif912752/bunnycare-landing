@@ -5,6 +5,8 @@
 
 @theme {
   --font-display: "Noto Sans Thai", "sans-serif";
+
+  --color-primary: #6FB1E4; /* สีหลัก */
   --color-pink: #FFD1DC; /* ชมพูอ่อน */
   --color-mint: #A2E4B8; /* มินต์ */
   --color-blue: #B5EAD7; /* ฟ้าอ่อน */

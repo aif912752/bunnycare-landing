@@ -9,7 +9,7 @@ import Logo from "../Logo.vue";
   <!-- ====== Hero Section Start -->
   <div
     id="home"
-    class="relative overflow-hidden bg-light pt-[120px] md:pt-[130px] lg:pt-[160px]"
+    class="relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px]"
   >
     <div class="container px-4 mx-auto">
       <div class="flex flex-wrap items-center -mx-4">
@@ -19,7 +19,7 @@ import Logo from "../Logo.vue";
             data-aos="fade-up"
           >
             <h1
-              class="mb-6 text-3xl font-bold leading-snug text-navy sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]"
+              class="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]"
             >
               สุขภาพดีเริ่มต้นที่นี่...ด้วยรอยยิ้ม
             </h1>
