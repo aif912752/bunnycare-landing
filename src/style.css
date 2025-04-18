@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;300;400;500;700;900&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+  --font-display: "Noto Sans Thai", "sans-serif";
+  --color-pink: #FFD1DC; /* ชมพูอ่อน */
+  --color-mint: #A2E4B8; /* มินต์ */
+  --color-blue: #B5EAD7; /* ฟ้าอ่อน */
+  --color-coral: #FF7E5F; /* Coral */
+
+  --color-navy: #1E3A8A;       /* ข้อความหัวข้อ Navy*/
+  --color-gray-800: #333333;   /* ข้อความปกติ เทาเข้ม	 */
+  --color-light: #FFF5F7;      /* พื้นหลัง */
+  --color-dark: #2D3748;       /* โหมดกลางคืน Dark Mode*/
+}
+:root {
+  font-family: var(--font-display);
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+}
+
+#app {
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
