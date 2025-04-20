@@ -1,253 +1,233 @@
 <template>
-       <footer
-      class=" relative z-10 bg-primary pt-20 lg:pt-[100px]"
-       data-aos="fade-up"
-    >
+  <footer
+    class="relative z-10 bg-primary pt-20 lg:pt-[100px]"
+    data-aos="fade-up"
+  >
+    <div class="container px-4 mx-auto">
+      <div class="flex flex-wrap -mx-4">
+        <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
+          <div class="w-full mb-10">
+            <a class="mb-6 inline-block max-w-[160px]">
+              <img src="/bun.png" alt="logo" class="max-w-full" />
+            </a>
+            <p class="mb-8 max-w-[270px] text-base text-gray-7">
+              BunnyCare Clinic <br />
+              ดูแลสัตว์เลี้ยงตัวเล็กของคุณ ด้วยใจของเรา
+            </p>
+            <div class="flex items-center -mx-3">
+              <a class="px-3 text-gray-7 hover:text-text">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="fill-current"
+                >
+                  <path
+                    d="M16.294 8.86875H14.369H13.6815V8.18125V6.05V5.3625H14.369H15.8128C16.1909 5.3625 16.5003 5.0875 16.5003 4.675V1.03125C16.5003 0.653125 16.2253 0.34375 15.8128 0.34375H13.3034C10.5878 0.34375 8.69714 2.26875 8.69714 5.12187V8.1125V8.8H8.00964H5.67214C5.19089 8.8 4.74402 9.17812 4.74402 9.72812V12.2031C4.74402 12.6844 5.12214 13.1313 5.67214 13.1313H7.94089H8.62839V13.8188V20.7281C8.62839 21.2094 9.00652 21.6562 9.55652 21.6562H12.7878C12.994 21.6562 13.1659 21.5531 13.3034 21.4156C13.4409 21.2781 13.544 21.0375 13.544 20.8312V13.8531V13.1656H14.2659H15.8128C16.2596 13.1656 16.6034 12.8906 16.6721 12.4781V12.4438V12.4094L17.1534 10.0375C17.1878 9.79688 17.1534 9.52187 16.9471 9.24687C16.8784 9.075 16.569 8.90312 16.294 8.86875Z"
+                  />
+                </svg>
+              </a>
+              <a class="px-3 text-gray-7 hover:text-text">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="fill-current"
+                >
+                  <path
+                    d="M20.1236 5.91236C20.2461 5.76952 20.0863 5.58286 19.905 5.64972C19.5004 5.79896 19.1306 5.8974 18.5837 5.95817C19.2564 5.58362 19.5693 5.04828 19.8237 4.39259C19.885 4.23443 19.7 4.09092 19.5406 4.16647C18.8931 4.47345 18.1945 4.70121 17.4599 4.83578C16.7338 4.11617 15.6988 3.6665 14.5539 3.6665C12.3554 3.6665 10.5725 5.32454 10.5725 7.36908C10.5725 7.65933 10.6081 7.94206 10.6752 8.21276C7.51486 8.06551 4.6968 6.71359 2.73896 4.64056C2.60477 4.49848 2.36128 4.51734 2.27772 4.69063C2.05482 5.15296 1.93056 5.66584 1.93056 6.20582C1.93056 7.49014 2.6332 8.62331 3.70132 9.28732C3.22241 9.27293 2.76441 9.17961 2.34234 9.02125C2.13684 8.94416 1.90127 9.07964 1.92888 9.28686C2.14084 10.8781 3.42915 12.1909 5.09205 12.5011C4.75811 12.586 4.40639 12.6311 4.04253 12.6311C3.95431 12.6311 3.86685 12.6284 3.78019 12.6231C3.55967 12.6094 3.38044 12.8067 3.47499 12.9954C4.09879 14.2404 5.44575 15.1096 7.0132 15.1367C5.65077 16.13 3.93418 16.7218 2.06882 16.7218C1.83882 16.7218 1.74015 17.0175 1.9442 17.1178C3.52016 17.8924 5.31487 18.3332 7.22182 18.3332C14.545 18.3332 18.549 12.6914 18.549 7.79843C18.549 7.63827 18.545 7.47811 18.5377 7.31945C19.1321 6.92012 19.6664 6.44528 20.1236 5.91236Z"
+                  />
+                </svg>
+              </a>
+              <a class="px-3 text-gray-7 hover:text-text">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="fill-current"
+                >
+                  <path
+                    d="M11.0297 14.4305C12.9241 14.4305 14.4598 12.8948 14.4598 11.0004C14.4598 9.10602 12.9241 7.57031 11.0297 7.57031C9.13529 7.57031 7.59958 9.10602 7.59958 11.0004C7.59958 12.8948 9.13529 14.4305 11.0297 14.4305Z"
+                  />
+                  <path
+                    d="M14.7554 1.8335H7.24463C4.25807 1.8335 1.83334 4.25823 1.83334 7.24479V14.6964C1.83334 17.7421 4.25807 20.1668 7.24463 20.1668H14.6962C17.7419 20.1668 20.1667 17.7421 20.1667 14.7555V7.24479C20.1667 4.25823 17.7419 1.8335 14.7554 1.8335ZM11.0296 15.4948C8.51614 15.4948 6.53496 13.4545 6.53496 11.0002C6.53496 8.54586 8.54571 6.50554 11.0296 6.50554C13.4839 6.50554 15.4946 8.54586 15.4946 11.0002C15.4946 13.4545 13.5134 15.4948 11.0296 15.4948ZM17.2393 6.91952C16.9436 7.24479 16.5 7.42221 15.9973 7.42221C15.5538 7.42221 15.1102 7.24479 14.7554 6.91952C14.4301 6.59425 14.2527 6.18027 14.2527 5.67758C14.2527 5.17489 14.4301 4.79049 14.7554 4.43565C15.0807 4.08081 15.4946 3.90339 15.9973 3.90339C16.4409 3.90339 16.914 4.08081 17.2393 4.40608C17.535 4.79049 17.7419 5.23403 17.7419 5.70715C17.7124 6.18027 17.535 6.59425 17.2393 6.91952Z"
+                  />
+                  <path
+                    d="M16.0276 4.96777C15.6432 4.96777 15.318 5.29304 15.318 5.67745C15.318 6.06186 15.6432 6.38713 16.0276 6.38713C16.412 6.38713 16.7373 6.06186 16.7373 5.67745C16.7373 5.29304 16.4416 4.96777 16.0276 4.96777Z"
+                  />
+                </svg>
+              </a>
+              <a class="px-3 text-gray-7 hover:text-text">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="fill-current"
+                >
+                  <path
+                    d="M18.8065 1.8335H3.16399C2.42474 1.8335 1.83334 2.42489 1.83334 3.16414V18.8362C1.83334 19.5459 2.42474 20.1668 3.16399 20.1668H18.7473C19.4866 20.1668 20.078 19.5754 20.078 18.8362V3.13457C20.1371 2.42489 19.5457 1.8335 18.8065 1.8335ZM7.24464 17.4168H4.55379V8.69371H7.24464V17.4168ZM5.88443 7.48135C4.99733 7.48135 4.31721 6.77167 4.31721 5.91414C4.31721 5.05661 5.0269 4.34694 5.88443 4.34694C6.74196 4.34694 7.45163 5.05661 7.45163 5.91414C7.45163 6.77167 6.8011 7.48135 5.88443 7.48135ZM17.4463 17.4168H14.7554V13.1883C14.7554 12.183 14.7258 10.8523 13.336 10.8523C11.9167 10.8523 11.7097 11.976 11.7097 13.0996V17.4168H9.01884V8.69371H11.6506V9.90608H11.6801C12.0645 9.1964 12.9221 8.48672 14.2527 8.48672C17.0027 8.48672 17.5054 10.2609 17.5054 12.6856V17.4168H17.4463Z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-3/12 cursor-pointer"
+        >
+          <div class="w-full mb-10">
+            <h4 class="text-lg font-semibold text-black mb-9">เมนู</h4>
+            <ul>
+              <li>
+                <a
+                  class="inline-block mb-3 text-base text-gray-7 hover:text-text"
+                >
+                  หน้าแรก
+                </a>
+              </li>
+              <li>
+                <a
+                  class="inline-block mb-3 text-base text-gray-7 hover:text-text"
+                >
+                  บริการ
+                </a>
+              </li>
+              <li>
+                <a
+                  class="inline-block mb-3 text-base text-gray-7 hover:text-text"
+                >
+                  เกี่ยวกับ
+                </a>
+              </li>
+              <li>
+                <a
+                  class="inline-block mb-3 text-base text-gray-7 hover:text-text"
+                >
+                  ติดต่อ
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-3/12 cursor-pointer"
+        >
+          <div class="w-full mb-10">
+            <h4 class="text-lg font-semibold text-black mb-9">ติดต่อเรา</h4>
+            <ul class="cursor-pointer">
+              <li>
+                <a
+                class="flex gap-2 mb-3 text-base text-gray-7 hover:text-text"
+                >
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#FF0B55" viewBox="0 0 256 256"><path d="M128,24a80,80,0,0,0-80,80c0,72,80,128,80,128s80-56,80-128A80,80,0,0,0,128,24Zm0,112a32,32,0,1,1,32-32A32,32,0,0,1,128,136Z" opacity="0.2"></path><path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"></path></svg>              
+              
+              
+                123 ซอยน่ารัก แขวงกระต่าย เขตอบอุ่น กรุงเทพฯ
+                </a>
+              </li>
+              <li>
+                <a
+                  class="flex gap-2 mb-3 text-base text-gray-7 hover:text-text"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="#FF0B55"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M223.94,174.08A48.33,48.33,0,0,1,176,216,136,136,0,0,1,40,80,48.33,48.33,0,0,1,81.92,32.06a8,8,0,0,1,8.3,4.8l21.13,47.2a8,8,0,0,1-.66,7.53L89.32,117a7.93,7.93,0,0,0-.54,7.81c8.27,16.93,25.77,34.22,42.75,42.41a7.92,7.92,0,0,0,7.83-.59l25-21.3a8,8,0,0,1,7.59-.69l47.16,21.13A8,8,0,0,1,223.94,174.08Z"
+                      opacity="0.2"
+                    ></path>
+                    <path
+                      d="M222.37,158.46l-47.11-21.11-.13-.06a16,16,0,0,0-15.17,1.4,8.12,8.12,0,0,0-.75.56L134.87,160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16,16,0,0,0,1.32-15.06l0-.12L97.54,33.64a16,16,0,0,0-16.62-9.52A56.26,56.26,0,0,0,32,80c0,79.4,64.6,144,144,144a56.26,56.26,0,0,0,55.88-48.92A16,16,0,0,0,222.37,158.46ZM176,208A128.14,128.14,0,0,1,48,80,40.2,40.2,0,0,1,82.87,40a.61.61,0,0,0,0,.12l21,47L83.2,111.86a6.13,6.13,0,0,0-.57.77,16,16,0,0,0-1,15.7c9.06,18.53,27.73,37.06,46.46,46.11a16,16,0,0,0,15.75-1.14,8.44,8.44,0,0,0,.74-.56L168.89,152l47,21.05h0s.08,0,.11,0A40.21,40.21,0,0,1,176,208Z"
+                    ></path>
+                  </svg>
+                  098-765-4321
+                </a>
+              </li>
+              <li>
+                <a
+                class="flex gap-2 mb-3 text-base text-gray-7 hover:text-text"
+
+                >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#FF0B55" viewBox="0 0 256 256"><path d="M224,56l-96,88L32,56Z" opacity="0.2"></path><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z"></path></svg>
+                  bunnycare@example.com
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-3/12 cursor-pointer"
+        >
+          <div class="w-full mb-10">
+            <h4 class="text-lg font-semibold text-black mb-9">Our Products</h4>
+            <ul>
+              <li>
+                <a
+                  class="inline-block mb-3 text-base text-gray-7 hover:text-text"
+                >
+                  อุปกรณ์สัตว์เล็ก
+                </a>
+              </li>
+              <li>
+                <a
+                  class="inline-block mb-3 text-base text-gray-7 hover:text-text"
+                >
+                  วิตามิน & อาหารเสริม
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-4 border-t border-[#8890A4]/40 py-8 lg:mt-6">
       <div class="container px-4 mx-auto">
         <div class="flex flex-wrap -mx-4">
-          <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
-            <div class="w-full mb-10">
-              <a
-                class="mb-6 inline-block max-w-[160px]"
+          <div class="w-full px-4 md:w-2/3 lg:w-1/2 cursor-pointer">
+            <div class="my-1">
+              <div
+                class="flex items-center justify-center -mx-3 md:justify-start"
               >
-                <img
-                  src="/bun.png"
-                  alt="logo"
-                  class="max-w-full"
-                />
-              </a>
-              <p class="mb-8 max-w-[270px] text-base text-gray-7">
-                BunnyCare Clinic <br />
-                ดูแลสัตว์เลี้ยงตัวเล็กของคุณ ด้วยใจของเรา
+                <button
+                  class="px-3 text-base text-gray-7 hover:text-text hover:underline"
+                >
+                  Privacy policy
+                </button>
+                <button
+                  class="px-3 text-base text-gray-7 hover:text-text hover:underline"
+                >
+                  Legal notice
+                </button>
+                <button
+                  class="px-3 text-base text-gray-7 hover:text-text hover:underline"
+                >
+                  Terms of service
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/3 lg:w-1/2">
+            <div class="flex justify-center my-1 md:justify-end">
+              <p class="text-base text-gray-7">
+                © 2025 BunnyCare Clinic. All rights reserved.
               </p>
-              <div class="flex items-center -mx-3">
-                <a
-                  class="px-3 text-gray-7 hover:text-text"
-                >
-                  <svg
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M16.294 8.86875H14.369H13.6815V8.18125V6.05V5.3625H14.369H15.8128C16.1909 5.3625 16.5003 5.0875 16.5003 4.675V1.03125C16.5003 0.653125 16.2253 0.34375 15.8128 0.34375H13.3034C10.5878 0.34375 8.69714 2.26875 8.69714 5.12187V8.1125V8.8H8.00964H5.67214C5.19089 8.8 4.74402 9.17812 4.74402 9.72812V12.2031C4.74402 12.6844 5.12214 13.1313 5.67214 13.1313H7.94089H8.62839V13.8188V20.7281C8.62839 21.2094 9.00652 21.6562 9.55652 21.6562H12.7878C12.994 21.6562 13.1659 21.5531 13.3034 21.4156C13.4409 21.2781 13.544 21.0375 13.544 20.8312V13.8531V13.1656H14.2659H15.8128C16.2596 13.1656 16.6034 12.8906 16.6721 12.4781V12.4438V12.4094L17.1534 10.0375C17.1878 9.79688 17.1534 9.52187 16.9471 9.24687C16.8784 9.075 16.569 8.90312 16.294 8.86875Z"
-                    />
-                  </svg>
-                </a>
-                <a
-                  class="px-3 text-gray-7 hover:text-text"
-                >
-                  <svg
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M20.1236 5.91236C20.2461 5.76952 20.0863 5.58286 19.905 5.64972C19.5004 5.79896 19.1306 5.8974 18.5837 5.95817C19.2564 5.58362 19.5693 5.04828 19.8237 4.39259C19.885 4.23443 19.7 4.09092 19.5406 4.16647C18.8931 4.47345 18.1945 4.70121 17.4599 4.83578C16.7338 4.11617 15.6988 3.6665 14.5539 3.6665C12.3554 3.6665 10.5725 5.32454 10.5725 7.36908C10.5725 7.65933 10.6081 7.94206 10.6752 8.21276C7.51486 8.06551 4.6968 6.71359 2.73896 4.64056C2.60477 4.49848 2.36128 4.51734 2.27772 4.69063C2.05482 5.15296 1.93056 5.66584 1.93056 6.20582C1.93056 7.49014 2.6332 8.62331 3.70132 9.28732C3.22241 9.27293 2.76441 9.17961 2.34234 9.02125C2.13684 8.94416 1.90127 9.07964 1.92888 9.28686C2.14084 10.8781 3.42915 12.1909 5.09205 12.5011C4.75811 12.586 4.40639 12.6311 4.04253 12.6311C3.95431 12.6311 3.86685 12.6284 3.78019 12.6231C3.55967 12.6094 3.38044 12.8067 3.47499 12.9954C4.09879 14.2404 5.44575 15.1096 7.0132 15.1367C5.65077 16.13 3.93418 16.7218 2.06882 16.7218C1.83882 16.7218 1.74015 17.0175 1.9442 17.1178C3.52016 17.8924 5.31487 18.3332 7.22182 18.3332C14.545 18.3332 18.549 12.6914 18.549 7.79843C18.549 7.63827 18.545 7.47811 18.5377 7.31945C19.1321 6.92012 19.6664 6.44528 20.1236 5.91236Z"
-                    />
-                  </svg>
-                </a>
-                <a
-                  class="px-3 text-gray-7 hover:text-text"
-                >
-                  <svg
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M11.0297 14.4305C12.9241 14.4305 14.4598 12.8948 14.4598 11.0004C14.4598 9.10602 12.9241 7.57031 11.0297 7.57031C9.13529 7.57031 7.59958 9.10602 7.59958 11.0004C7.59958 12.8948 9.13529 14.4305 11.0297 14.4305Z"
-                    />
-                    <path
-                      d="M14.7554 1.8335H7.24463C4.25807 1.8335 1.83334 4.25823 1.83334 7.24479V14.6964C1.83334 17.7421 4.25807 20.1668 7.24463 20.1668H14.6962C17.7419 20.1668 20.1667 17.7421 20.1667 14.7555V7.24479C20.1667 4.25823 17.7419 1.8335 14.7554 1.8335ZM11.0296 15.4948C8.51614 15.4948 6.53496 13.4545 6.53496 11.0002C6.53496 8.54586 8.54571 6.50554 11.0296 6.50554C13.4839 6.50554 15.4946 8.54586 15.4946 11.0002C15.4946 13.4545 13.5134 15.4948 11.0296 15.4948ZM17.2393 6.91952C16.9436 7.24479 16.5 7.42221 15.9973 7.42221C15.5538 7.42221 15.1102 7.24479 14.7554 6.91952C14.4301 6.59425 14.2527 6.18027 14.2527 5.67758C14.2527 5.17489 14.4301 4.79049 14.7554 4.43565C15.0807 4.08081 15.4946 3.90339 15.9973 3.90339C16.4409 3.90339 16.914 4.08081 17.2393 4.40608C17.535 4.79049 17.7419 5.23403 17.7419 5.70715C17.7124 6.18027 17.535 6.59425 17.2393 6.91952Z"
-                    />
-                    <path
-                      d="M16.0276 4.96777C15.6432 4.96777 15.318 5.29304 15.318 5.67745C15.318 6.06186 15.6432 6.38713 16.0276 6.38713C16.412 6.38713 16.7373 6.06186 16.7373 5.67745C16.7373 5.29304 16.4416 4.96777 16.0276 4.96777Z"
-                    />
-                  </svg>
-                </a>
-                <a
-                  class="px-3 text-gray-7 hover:text-text"
-                >
-                  <svg
-                    width="22"
-                    height="22"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="fill-current"
-                  >
-                    <path
-                      d="M18.8065 1.8335H3.16399C2.42474 1.8335 1.83334 2.42489 1.83334 3.16414V18.8362C1.83334 19.5459 2.42474 20.1668 3.16399 20.1668H18.7473C19.4866 20.1668 20.078 19.5754 20.078 18.8362V3.13457C20.1371 2.42489 19.5457 1.8335 18.8065 1.8335ZM7.24464 17.4168H4.55379V8.69371H7.24464V17.4168ZM5.88443 7.48135C4.99733 7.48135 4.31721 6.77167 4.31721 5.91414C4.31721 5.05661 5.0269 4.34694 5.88443 4.34694C6.74196 4.34694 7.45163 5.05661 7.45163 5.91414C7.45163 6.77167 6.8011 7.48135 5.88443 7.48135ZM17.4463 17.4168H14.7554V13.1883C14.7554 12.183 14.7258 10.8523 13.336 10.8523C11.9167 10.8523 11.7097 11.976 11.7097 13.0996V17.4168H9.01884V8.69371H11.6506V9.90608H11.6801C12.0645 9.1964 12.9221 8.48672 14.2527 8.48672C17.0027 8.48672 17.5054 10.2609 17.5054 12.6856V17.4168H17.4463Z"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-3/12 cursor-pointer">
-            <div class="w-full mb-10">
-              <h4 class="text-lg font-semibold text-black mb-9">About Us</h4>
-              <ul>
-                <li>
-                  <a
-                    class="inline-block mb-3 text-base text-gray-7 hover:text-text"
-                  >
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="inline-block mb-3 text-base text-gray-7 hover:text-text"
-                  >
-                    Features
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="inline-block mb-3 text-base text-gray-7 hover:text-text"
-                  >
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a
-                   
-                    class="inline-block mb-3 text-base text-gray-7 hover:text-text"
-                  >
-                    Testimonial
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-3/12 cursor-pointer">
-            <div class="w-full mb-10">
-              <h4 class="text-lg font-semibold text-black mb-9">Features</h4>
-              <ul class="cursor-pointer">
-                <li>
-                  <a
-                    class="inline-block mb-3 text-base text-gray-7 hover:text-text "
-                  >
-                    How it works
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="inline-block mb-3 text-base text-gray-7 hover:text-text"
-                  >
-                    Privacy policy
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="inline-block mb-3 text-base text-gray-7 hover:text-text"
-                  >
-                    Terms of Service
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="inline-block mb-3 text-base text-gray-7 hover:text-text"
-                  >
-                    Refund policy
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-3/12 cursor-pointer">
-            <div class="w-full mb-10">
-              <h4 class="text-lg font-semibold text-black mb-9">
-                Our Products
-              </h4>
-              <ul>
-                <li>
-                  <a
-                    class="inline-block mb-3 text-base text-gray-7 hover:text-text"
-                  >
-                    LineIcons
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="inline-block mb-3 text-base text-gray-7 hover:text-text"
-                  >
-                    Ecommerce HTML
-                  </a>
-                </li>
-                <li>
-                  <a
-    
-                    class="inline-block mb-3 text-base text-gray-7 hover:text-text"
-                  >
-                    TailAdmin
-                  </a>
-                </li>
-                <li>
-                  <a
-    
-                    class="inline-block mb-3 text-base text-gray-7 hover:text-text"
-                  >
-                    PlainAdmin
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-     
-        </div>
-      </div>
-
-      <div class="mt-4 border-t border-[#8890A4]/40 py-8 lg:mt-6">
-        <div class="container px-4 mx-auto">
-          <div class="flex flex-wrap -mx-4">
-            <div class="w-full px-4 md:w-2/3 lg:w-1/2 cursor-pointer">
-              <div class="my-1 ">
-                <div
-                  class="flex items-center justify-center -mx-3 md:justify-start"
-                >
-                  <button
-    
-                    class="px-3 text-base text-gray-7 hover:text-text hover:underline"
-                  >
-                    Privacy policy
-                  </button>
-                  <button
-    
-                    class="px-3 text-base text-gray-7 hover:text-text hover:underline "
-                  >
-                    Legal notice
-                  </button>
-                  <button
-    
-                    class="px-3 text-base text-gray-7 hover:text-text hover:underline"
-                  >
-                    Terms of service
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="w-full px-4 md:w-1/3 lg:w-1/2">
-              <div class="flex justify-center my-1 md:justify-end">
-                <p class="text-base text-gray-7">
-                    © 2025 BunnyCare Clinic. All rights reserved.
-                </p>
-              </div>
             </div>
           </div>
         </div>
       </div>
-
-  
-    </footer>
+    </div>
+  </footer>
 </template>
