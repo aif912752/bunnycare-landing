@@ -19,26 +19,34 @@ import Logo from "../Logo.vue";
             data-aos="fade-up"
           >
             <h1
-              class="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]"
+              class="mb-6 text-3xl font-bold leading-snug text-text sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]"
             >
-              สุขภาพดีเริ่มต้นที่นี่...ด้วยรอยยิ้ม
+            BunnyCare – คลินิกรักษาสัตว์เลี้ยงครบวงจร
             </h1>
             <p
-              class="mx-auto mb-9 max-w-[600px] text-base font-medium text-navy sm:text-lg sm:leading-[1.44]"
+              class="mx-auto mb-9 max-w-[600px] text-base font-medium text-text sm:text-lg sm:leading-[1.44]"
             >
-              BunnyCare Clinic พร้อมดูแลคุณและครอบครัวด้วยความอบอุ่นเหมือนบ้าน
-              ทีมแพทย์ผู้เชี่ยวชาญและอุปกรณ์มาตรฐานสูง ในบรรยากาศที่เป็นมิตร
+            สัตวแพทย์เฉพาะทาง | จองคิวง่าย | ปลอดภัย อ่อนโยน ไม่เครียด
             </p>
-            <ul class="flex items-center justify-center mb-6">
+            <ul class="flex flex-wrap items-center justify-center gap-5 mb-10">
               <li>
                 <a
                   href="https://links.tailgrids.com/play-download"
-                  class="inline-flex items-center justify-center rounded-md bg-coral px-7 py-[14px] text-white text-center text-base font-medium  shadow-1 transition duration-300 ease-in-out hover:bg-coral/70 hover:text-body-color"
+                  class="inline-flex items-center justify-center rounded-md bg-text px-7 py-[14px] text-white text-center text-base font-medium  shadow-1 transition duration-300 ease-in-out hover:bg-coral/70 hover:text-body-color"
                 >
-                  นัดหมายล่วงหน้า
+                นัดหมายเลย
                 </a>
               </li>
-              <li></li>
+              <li>
+                  <a
+                    href="https://github.com/tailgrids/play-tailwind"
+                    target="_blank"
+                    class="flex items-center gap-4 rounded-md bg-text/[0.12] px-6 py-[14px] text-base font-medium text-text transition duration-300 ease-in-out hover:bg-white"
+                  >
+                
+                    ปรึกษาแพทย์ฟรี
+                  </a>
+                </li>
             </ul>
           </div>
         </div>
@@ -50,7 +58,7 @@ import Logo from "../Logo.vue";
           >
             <div class="mt-16">
               <img
-                src="/cover.png"
+                src="@/assets/img/bunny1.png"
                 alt="hero"
                 class="max-w-full mx-auto rounded-t-xl rounded-tr-xl"
               />

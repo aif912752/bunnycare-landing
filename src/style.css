@@ -6,16 +6,12 @@
 @theme {
   --font-display: "Noto Sans Thai", "sans-serif";
 
-  --color-primary: #6FB1E4; /* สีหลัก */
-  --color-pink: #FFD1DC; /* ชมพูอ่อน */
-  --color-mint: #A2E4B8; /* มินต์ */
-  --color-blue: #B5EAD7; /* ฟ้าอ่อน */
-  --color-coral: #FF7E5F; /* Coral */
+  --color-primary: #FADADD; /* สีหลัก ชมพูอ่อน*/
+  --color-secondary: #C9E4DE; /* เขียวมิ้นท์ */
+  --color-light: #FDF6F0; /* ขาวครีม */
+  --color-text: #FF0B55; /* ข้อความ ชมพูเข้ม */
+  --color-cta: #FF8FA3; /* CTA ชมพูเข้ม*/
 
-  --color-navy: #1E3A8A;       /* ข้อความหัวข้อ Navy*/
-  --color-gray-800: #333333;   /* ข้อความปกติ เทาเข้ม	 */
-  --color-light: #FFF5F7;      /* พื้นหลัง */
-  --color-dark: #2D3748;       /* โหมดกลางคืน Dark Mode*/
 }
 :root {
   font-family: var(--font-display);
@@ -73,4 +69,15 @@ body {
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+}
+
+#navbarCollapse li .ud-menu-scroll.active {
+  @apply opacity-70;
+}
+.sticky #navbarCollapse li .ud-menu-scroll.active {
+  @apply opacity-100 text-primary;
+}
+.shadow-testimonial {
+  --tw-shadow: 0px 10px 20px 0px var(--tw-shadow-color, rgba(92, 115, 160, 0.07));
+  box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
 }

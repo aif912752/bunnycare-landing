@@ -1,31 +1,28 @@
 <template>
-  <section
-    id="about"
-    class="bg-light pb-8 pt-20  lg:pb-[70px] lg:pt-[120px]"
-  >
+  <section id="about" class="bg-light pb-8 pt-20 lg:pb-[70px] lg:pt-[120px]">
     <div class="container px-4 mx-auto">
       <div class="wow fadeInUp" data-wow-delay=".2s">
         <div class="flex flex-wrap items-center -mx-4">
           <div class="w-full px-4 lg:w-1/2">
             <div class="mb-12 max-w-[540px] lg:mb-0">
               <h2
-                class="mb-5 text-3xl font-bold leading-tight text-navy  sm:text-[35px] sm:leading-[1.2]"
+                class="mb-5 text-3xl font-bold leading-tight text-[#2D2D2D] sm:text-[35px] sm:leading-[1.2]"
               >
-              ทำความรู้จักกับ BunnyCare Clinic
+                เราดูแลสัตว์เลี้ยงของคุณ... ด้วยหัวใจของคนรักสัตว์
               </h2>
-              <p
-                class="mb-10 text-base leading-relaxed text-gray-800 "
-              >
-              เราคือคลินิกสุขภาพแนวใหม่ที่ผสมผสานความเชี่ยวชาญทางการแพทย์เข้ากับความอบอุ่นแบบครอบครัว ทุกการรักษาออกแบบมาเพื่อให้คุณรู้สึกปลอดภัยและมีความสุขที่สุด
-                <br />
-                <br />
-                🐰 "ทีมแพทย์การ์ตูนแต่ความสามารถจริง!"
-                <br />
-                🏥 "คลินิกสะอาดได้มาตรฐานระดับสากล"
-                <br />
+              <p class="mb-10 text-base leading-relaxed text-gray-800">
+                BunnyCare Clinic คือคลินิกสัตว์เลี้ยงขนาดเล็ก
+                ที่ใส่ใจทุกรายละเอียดของน้องหมา น้องแมว กระต่าย เม่น
+                และเพื่อนตัวจิ๋วของคุณ
+                ด้วยทีมสัตวแพทย์เฉพาะทางและบริการที่เป็นมิตร<br />
+            
               </p>
-
-         
+              <button
+                  
+                  class="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border rounded-md border-text bg-text px-7 hover:border-cta hover:bg-cta"
+                >
+                นัดพบสัตวแพทย์
+                </button>
             </div>
           </div>
 
@@ -55,18 +52,14 @@
                 </div>
 
                 <div
-                  class="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-navy px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8"
+                  class="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-text px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8"
                 >
                   <div class="text-white">
-                    <span class="block text-5xl font-extrabold ">
-                        BC
+                    <span class="block text-5xl font-extrabold"> BC </span>
+                    <span class="block text-base font-semibold">
+                      BunnyCare
                     </span>
-                    <span class="block text-base font-semibold ">
-                        BunnyCare
-                    </span>
-                    <span
-                      class="block text-base font-medium text-opacity-70"
-                    >
+                    <span class="block text-base font-medium text-opacity-70">
                       ดูแลใจไปพร้อมกับร่างกาย
                     </span>
                   </div>
