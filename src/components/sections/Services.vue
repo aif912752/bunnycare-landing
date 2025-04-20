@@ -15,7 +15,7 @@
       </div>
       <div class="flex flex-wrap -mx-4">
         <div class="w-full px-4 md:w-1/2 lg:w-1/4">
-          <div class="mb-12 wow fadeInUp group" data-aos="fade-up">
+          <div class="mb-12 group" data-aos="fade-up">
             <div
               class="relative z-10 mb-6 flex h-[70px] w-[70px] items-center justify-center rounded-[14px]  bg-primary"
             >
@@ -34,7 +34,7 @@
           </div>
         </div>
         <div class="w-full px-4 md:w-1/2 lg:w-1/4">
-          <div class="mb-12 wow fadeInUp group" data-aos="fade-up" data-aos-delay="150">
+          <div class="mb-12 group" data-aos="fade-up" data-aos-delay="150">
             <div
               class="relative z-10 mb-6 flex h-[70px] w-[70px] items-center justify-center rounded-[14px] bg-primary"
             >
@@ -52,7 +52,7 @@
           </div>
         </div>
         <div class="w-full px-4 md:w-1/2 lg:w-1/4">
-          <div class="mb-12 wow fadeInUp group" data-aos="fade-up" data-aos-delay="200">
+          <div class="mb-12" data-aos="fade-up" data-aos-delay="200">
             <div
               class="relative z-10 mb-6 flex h-[70px] w-[70px] items-center justify-center rounded-[14px] bg-primary"
             >
@@ -70,7 +70,7 @@
           </div>
         </div>
         <div class="w-full px-4 md:w-1/2 lg:w-1/4">
-          <div class="mb-12 wow fadeInUp group" data-aos="fade-up" data-aos-delay="250">
+          <div class="mb-12 group" data-aos="fade-up" data-aos-delay="250">
             <div
               class="relative z-10 mb-6 flex h-[70px] w-[70px] items-center justify-center rounded-[14px] bg-primary"
             >

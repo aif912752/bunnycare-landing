@@ -15,7 +15,7 @@ import Logo from "../Logo.vue";
       <div class="flex flex-wrap items-center -mx-4">
         <div class="w-full px-4">
           <div
-            class="hero-content wow fadeInUp mx-auto max-w-[780px] text-center"
+            class="hero-content mx-auto max-w-[780px] text-center"
             data-aos="fade-up"
           >
             <h1
@@ -51,8 +51,9 @@ import Logo from "../Logo.vue";
 
         <div class="w-full px-4">
           <div
-            class="wow fadeInUp relative z-10 mx-auto max-w-[845px]"
-            data-wow-delay=".25s"
+            class="relative z-10 mx-auto max-w-[845px]"
+            data-aos-delay="250"
+            data-aos="fade-up"
           >
             <div class="mt-16">
               <img

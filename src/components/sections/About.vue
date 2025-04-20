@@ -1,7 +1,7 @@
 <template>
   <section id="about" class="bg-light pb-8 pt-20 lg:pb-[70px] lg:pt-[120px]">
     <div class="container px-4 mx-auto">
-      <div class="wow fadeInUp" data-wow-delay=".2s">
+      <div data-aos="fade-up">
         <div class="flex flex-wrap items-center -mx-4">
           <div class="w-full px-4 lg:w-1/2">
             <div class="mb-12 max-w-[540px] lg:mb-0">
