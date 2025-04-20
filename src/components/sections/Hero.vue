@@ -30,22 +30,20 @@ import Logo from "../Logo.vue";
             </p>
             <ul class="flex flex-wrap items-center justify-center gap-5 mb-10">
               <li>
-                <a
-                  href="https://links.tailgrids.com/play-download"
+                <button
                   class="inline-flex items-center justify-center rounded-md bg-text px-7 py-[14px] text-white text-center text-base font-medium  shadow-1 transition duration-300 ease-in-out hover:bg-coral/70 hover:text-body-color"
                 >
                 นัดหมายเลย
-                </a>
+                </button>
               </li>
               <li>
-                  <a
-                    href="https://github.com/tailgrids/play-tailwind"
+                  <button
                     target="_blank"
                     class="flex items-center gap-4 rounded-md bg-text/[0.12] px-6 py-[14px] text-base font-medium text-text transition duration-300 ease-in-out hover:bg-white"
                   >
                 
                     ปรึกษาแพทย์ฟรี
-                  </a>
+                  </button>
                 </li>
             </ul>
           </div>

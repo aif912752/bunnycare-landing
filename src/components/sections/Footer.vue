@@ -1,7 +1,7 @@
 <template>
        <footer
-      class="wow fadeInUp relative z-10 bg-primary pt-20 lg:pt-[100px]"
-      data-wow-delay=".15s"
+      class=" relative z-10 bg-primary pt-20 lg:pt-[100px]"
+       data-aos="fade-up"
     >
       <div class="container px-4 mx-auto">
         <div class="flex flex-wrap -mx-4">
