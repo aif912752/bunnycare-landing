@@ -133,10 +133,10 @@
           <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-3/12 cursor-pointer">
             <div class="w-full mb-10">
               <h4 class="text-lg font-semibold text-black mb-9">Features</h4>
-              <ul>
+              <ul class="cursor-pointer">
                 <li>
                   <a
-                    class="inline-block mb-3 text-base text-gray-7 hover:text-text"
+                    class="inline-block mb-3 text-base text-gray-7 hover:text-text "
                   >
                     How it works
                   </a>
@@ -211,29 +211,29 @@
       <div class="mt-4 border-t border-[#8890A4]/40 py-8 lg:mt-6">
         <div class="container px-4 mx-auto">
           <div class="flex flex-wrap -mx-4">
-            <div class="w-full px-4 md:w-2/3 lg:w-1/2">
-              <div class="my-1">
+            <div class="w-full px-4 md:w-2/3 lg:w-1/2 cursor-pointer">
+              <div class="my-1 ">
                 <div
                   class="flex items-center justify-center -mx-3 md:justify-start"
                 >
-                  <a
+                  <button
     
-                    class="px-3 text-base text-gray-7 hover:text-white hover:underline"
+                    class="px-3 text-base text-gray-7 hover:text-text hover:underline"
                   >
                     Privacy policy
-                  </a>
-                  <a
+                  </button>
+                  <button
     
-                    class="px-3 text-base text-gray-7 hover:text-white hover:underline"
+                    class="px-3 text-base text-gray-7 hover:text-text hover:underline "
                   >
                     Legal notice
-                  </a>
-                  <a
+                  </button>
+                  <button
     
-                    class="px-3 text-base text-gray-7 hover:text-white hover:underline"
+                    class="px-3 text-base text-gray-7 hover:text-text hover:underline"
                   >
                     Terms of service
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>

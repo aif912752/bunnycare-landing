@@ -1,14 +1,11 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 
-// Reactive state for navbar toggle
 const isNavbarActive = ref(false)
 const navbarCollapse = ref<HTMLElement | null>(null)
 
-// Reactive state for header stickiness
 const isSticky = ref(false)
 
-// Menu items array
 const menuItems = ref([
   { label: 'Home', href: '#home' },
   { label: 'Services', href: '#services' },
@@ -16,20 +13,29 @@ const menuItems = ref([
   { label: 'Team', href: '#team' },
   { label: 'Reviews', href: '#reviews' },
   { label: 'Contact', href: '#contact' },
-
 ])
 
-// Toggle navbar
 const toggleNavbar = () => {
   isNavbarActive.value = !isNavbarActive.value
 }
 
-// Close navbar when a link is clicked
 const closeNavbar = () => {
   isNavbarActive.value = false
 }
-
-// Handle scroll for sticky header and back-to-top button
+const scrollToSection = (href: string) => {
+  const element = document.querySelector(href)
+  if (element) {
+    const header = document.querySelector('.ud-header') as HTMLElement
+    const headerHeight = header ? header.offsetHeight : 0
+    const offset = headerHeight + 16 // Additional padding for better spacing
+    const elementPosition = element.getBoundingClientRect().top + window.pageYOffset
+    window.scrollTo({
+      top: elementPosition - offset,
+      behavior: 'smooth',
+    })
+    closeNavbar() // Close mobile navbar after scrolling
+  }
+}
 const handleScroll = () => {
   const udHeader = document.querySelector('.ud-header')
   if (udHeader) {
@@ -46,12 +52,7 @@ const handleScroll = () => {
   }
 }
 
-// Navigate to booking page
-const bookQueue = () => {
-  window.location.href = '/booking' 
-}
 
-// Scroll to top animation
 const scrollToTop = () => {
   const scrollTo = (element: HTMLElement, to: number = 0, duration: number = 500) => {
     const start = element.scrollTop
@@ -81,20 +82,16 @@ const scrollToTop = () => {
   scrollTo(document.documentElement)
 }
 
-// Initialize WOW.js (if used)
 onMounted(() => {
   if (typeof window !== 'undefined' && (window as any).WOW) {
     new (window as any).WOW().init()
   }
 
-  // Add scroll event listener
   window.addEventListener('scroll', handleScroll)
 
-  // Initial scroll check
   handleScroll()
 })
 
-// Cleanup
 onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
 })
@@ -148,7 +145,7 @@ onUnmounted(() => {
                   <a
                     :href="item.href"
                     class="flex py-2 mx-8 lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:group-hover:opacity-70"
-                    @click="closeNavbar"
+                    @click.prevent="scrollToSection(item.href)"
                   >
                     {{ item.label }}
                   </a>
@@ -156,12 +153,9 @@ onUnmounted(() => {
               </ul>
             </nav>
           </div>
-          <!-- Book Queue Button -->
           <div class="hidden sm:flex">
             <button
-              id="bookQueue"
               class="px-4 py-2 text-white bg-[#FF0B55] rounded-lg"
-              @click="bookQueue"
             >
               จองคิว
             </button>
