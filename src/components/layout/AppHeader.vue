@@ -118,7 +118,7 @@ onUnmounted(() => window.removeEventListener("scroll", handleScroll));
               </ul>
             </nav>
           </div>
-          <div class="hidden sm:flex">
+          <div class="hidden lg:flex">
             <button class="px-4 py-2 text-white bg-[#FF0B55] rounded-lg">
               จองคิว
             </button>
